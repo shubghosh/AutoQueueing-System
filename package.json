@@ -1,0 +1,17 @@
+{
+  "name": "docsapp-project",
+  "version": "1.0.0",
+  "description": "assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubhankar Ghosh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql": "2.16.0",
+    "nodemon": "^1.18.4",
+    "uuid": "3.3.2"
+  }
+}
