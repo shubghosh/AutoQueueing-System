@@ -1,15 +1,16 @@
 let express = require('express'),
     mysql = require('mysql'),
     app = express(),
+    db= require('./dbconfig.json'),
     uuid = require('uuid/v4');
 
 // create mysql connection to the db
 let connection = mysql.createConnection({
-  host     : 'localhost',
-  user     : 'root',
-  password : '',
-  port     : '3306',
-  database: 'docsapp'
+  host     : db.host,
+  user     : db.user,
+  password : db.password,
+  port     : db.port,
+  database : db.database 
 });
 
 connection.connect((err) => {
