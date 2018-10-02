@@ -1,5 +1,4 @@
 <?php 
-    $driverId = $_GET['dId'];
 
     $curl = curl_init();
 
